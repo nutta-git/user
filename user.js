@@ -1,8 +1,8 @@
-/* FireFox v84.0.1 
+/* user.js 
  
  *PLEASE READ* 
 
-    - This user.js Disables some of the telemetry in FireFox
+    - This user.js Disables some of the telemetry in Firefox
     - user.js takes inspiration from [https://github.com/arkenfox/user.js] user.js 
     - Please have a backup of your orginal Profile before using this script,
     - This script may casue site breakage and/or create security holes. 
