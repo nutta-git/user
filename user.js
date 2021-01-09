@@ -1,4 +1,4 @@
-/* user.js 
+/* user.js by nutta-git @GitHub
  
  *PLEASE READ* 
 
