@@ -91,6 +91,7 @@ user_pref("browser.urlbar.suggest.searches", false);
 user_pref("browser.urlbar.suggest.topsites", false);
 user_pref("browser.geolocation.warning.infoURL","");
 user_pref("captivedetect.canonicalURL","");
+user_pref("browser.urlbar.ctrlCanonizesURLs", false);
 user_pref("browser.xr.warning.infoURL","");
 
 //Health Reporting && URLs
