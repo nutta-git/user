@@ -101,13 +101,6 @@ user_pref("datareporting.policy.dataSubmissionPolicyAcceptedVersion", 2);
 user_pref("datareporting.policy.dataSubmissionPolicyNotifiedTime", "");
 user_pref("datareporting.policy.firstRunURL", "");
 
-//Pocket
-user_pref("extensions.pocket.api", "");
-user_pref("extensions.pocket.enabled", false);
-user_pref("extensions.pocket.oAuthConsumerKey", "");
-user_pref("extensions.pocket.onSaveRecs", false);
-user_pref("extensions.pocket.site", "");
-
 //User Account && Urls
 user_pref("geo.provider.network.url", "");
 user_pref("identity.fxaccounts.remote.pairing.uri", "");
@@ -186,7 +179,7 @@ user_pref("devtools.devices.url", "");
 user_pref("devtools.performance.recording.ui-base-url", "");
 user_pref("devtools.remote.adb.extensionURL", "");
 
-//Extensions
+//Extensions && Pocket 
 user_pref("extensions.abuseReport.amoDetailsURL", "");
 user_pref("extensions.abuseReport.url", "");
 user_pref("extensions.blocklist.pingCountVersion", 0);
@@ -199,6 +192,11 @@ user_pref("extensions.pendingOperations", false);
 user_pref("extensions.recommendations.privacyPolicyUrl", "");
 user_pref("extensions.recommendations.themeRecommendationUrl", "");
 user_pref("extensions.update.background.url", "");
+user_pref("extensions.pocket.api", "");
+user_pref("extensions.pocket.enabled", false);
+user_pref("extensions.pocket.oAuthConsumerKey", "");
+user_pref("extensions.pocket.onSaveRecs", false);
+user_pref("extensions.pocket.site", "");
 
 //Network 
 user_pref("network.connectivity-service.IPv4.url", "");
@@ -224,12 +222,9 @@ user_pref("app.update.auto", false);
 user_pref("app.update.url.manual","");
 user_pref("browser.search.update", false);
 
-//DOM
-user_pref("dom.push.serverURL", "");
-user_pref("dom.security.unexpected_system_load_telemetry_enabled", false);
-
 //MISC
 user_pref("webchannel.allowObject.urlWhitelist", "");
 user_pref("webextensions.storage.sync.serverURL", "");
 user_pref("xpinstall.signatures.devInfoURL", "");
-
+user_pref("dom.push.serverURL", "");
+user_pref("dom.security.unexpected_system_load_telemetry_enabled", false);
