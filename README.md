@@ -8,7 +8,7 @@ Please Read:
   
      Please have a backup of your orginal Profile before using this script,
   
-    This script may casue site breakage and/or create security holes. 
+     This script may casue site breakage and/or create security holes. 
   
      !! USE THIS SCRIPT AT YOUR OWN RISK !! 
   
