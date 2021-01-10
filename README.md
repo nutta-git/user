@@ -19,7 +19,7 @@ Installation:
   
   -First, Open into your mozilla directory 
   
-  -Next, Head to the Firefox Directory, then to your profile direcory 
+  -Next, Head to the Firefox Directory, then to your profile directory 
   
   -Lastly, Place user.js into your profile directory
   
