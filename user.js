@@ -145,10 +145,6 @@ user_pref("services.sync.prefs.sync.layout.spellcheckDefault", false);
 user_pref("services.sync.prefs.sync.spellchecker.dictionary", false);
 user_pref("services.sync.tabs.lastSync", "0");
 
-// Signon Telemetry
-user_pref("signon.management.page.breachAlertUrl", "");
-user_pref("signon.rememberSignons", false);
-
 //Toolkit Telemetry && URLs 
 user_pref("toolkit.coverage.endpoint.base", "");
 user_pref("toolkit.crashreporter.infoURL", "");
@@ -204,8 +200,6 @@ user_pref("network.connectivity-service.IPv4.url", "");
 user_pref("network.connectivity-service.IPv6.url", "");
 user_pref("network.dns.disablePrefetch", true);
 user_pref("network.http.speculative-parallel-limit", 0);
-user_pref("network.predictor.enabled", false);
-user_pref("network.prefetch-next", false);
 user_pref("network.trr.blocklist_cleanup_done", true);
 
 //App. 
