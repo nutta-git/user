@@ -1,6 +1,6 @@
 user.js by nutta-git @GitHub
 
-Please Read:
+# Please Read:
 
      user.js disables some of the telemetry within Firefox 
   
@@ -15,11 +15,11 @@ Please Read:
 
 
 
-Installation:
+# Installation:
   
      -First, Open into your mozilla directory 
   
-     -Next, Head to the Firefox Directory, then to your profile directory 
+     -Next, Head to the firefox directory, then to your profile directory 
   
      -Lastly, Place user.js into your profile directory
   
