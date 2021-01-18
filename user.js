@@ -2,7 +2,7 @@
  
  *PLEASE READ* 
 
-    - This user.js Disables some of the telemetry in FireFox
+    - This user.js disables some of the telemetry in FireFox
     - user.js takes inspiration from [https://github.com/arkenfox/user.js] user.js 
     - Please have a backup of your orginal Profile before using this script,
     - This script may casue site breakage and/or create security holes. 
