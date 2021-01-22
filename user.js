@@ -111,10 +111,6 @@ user_pref("identity.mobilepromo.ios", "");
 user_pref("identity.sendtabpromo.url", "");
 user_pref("identity.sync.tokenserver.uri", "");
 
-//incomplete Fingerprinting Protection
-user_pref("privacy.resistFingerprinting", true);
-user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
-
 //Telemetry for Security
 user_pref("security.certerrors.mitm.priming.endpoint", "");
 user_pref("security.certerrors.recordEventTelemetry", false);
@@ -124,10 +120,7 @@ user_pref("security.ssl.errorReporting.url", "");
 user_pref("security.xfocsp.errorReporting.enabled", false);
 
 //Browser Sync
-user_pref("services.sync.clients.lastSync", "0");
 user_pref("services.sync.declinedEngines", "");
-user_pref("services.sync.globalScore", 0);
-user_pref("services.sync.nextSync", 0);
 user_pref("services.sync.prefs.sync.app.shield.optoutstudies.enabled", false);
 user_pref("services.sync.prefs.sync.browser.crashReports.unsubmittedCheck.autoSubmit2", false);
 user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
@@ -143,7 +136,6 @@ user_pref("services.sync.prefs.sync.browser.urlbar.suggest.bookmark", false);
 user_pref("services.sync.prefs.sync.browser.urlbar.suggest.history", false);
 user_pref("services.sync.prefs.sync.layout.spellcheckDefault", false);
 user_pref("services.sync.prefs.sync.spellchecker.dictionary", false);
-user_pref("services.sync.tabs.lastSync", "0");
 
 //Toolkit Telemetry && URLs 
 user_pref("toolkit.coverage.endpoint.base", "");
@@ -223,3 +215,8 @@ user_pref("webextensions.storage.sync.serverURL", "");
 user_pref("xpinstall.signatures.devInfoURL", "");
 user_pref("dom.push.serverURL", "");
 user_pref("dom.security.unexpected_system_load_telemetry_enabled", false);
+
+
+//Incomplete Fingerprinting Protection (These settings can casue performace issue, https://wiki.mozilla.org/Security/Fingerprinting) 
+//user_pref("privacy.resistFingerprinting", true);  (Use Canvas Blocker addon instead)  
+//user_pref("privacy.resistFingerprinting.block_mozAddonManager", true); 
