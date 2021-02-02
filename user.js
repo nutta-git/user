@@ -60,7 +60,6 @@ user_pref("browser.safebrowsing.reportPhishURL", "");
 
 //Browser.Content
 user_pref("browser.chrome.errorReporter.infoURL", "");
-user_pref("browser.contentblocking.category", "standard");
 user_pref("browser.contentblocking.report.cookie.url", "");
 user_pref("browser.contentblocking.report.cryptominer.url", "");
 user_pref("browser.contentblocking.report.endpoint_url", "");
