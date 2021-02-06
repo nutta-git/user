@@ -23,6 +23,7 @@ user_pref("browser.newtabpage.activity-stream.telemetry", false);
 user_pref("browser.newtabpage.activity-stream.telemetry.structuredIngestion.endpoint", "");
 
 //Safebrowsing && URLs
+user_pref("browser.tabs.crashReporting.sendReport", false);
 user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false)
 user_pref("network.connectivity-service.enabled", false);
 user_pref("browser.partnerlink.attributionURL", "");
