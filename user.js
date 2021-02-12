@@ -215,8 +215,3 @@ user_pref("webextensions.storage.sync.serverURL", "");
 user_pref("xpinstall.signatures.devInfoURL", "");
 user_pref("dom.push.serverURL", "");
 user_pref("dom.security.unexpected_system_load_telemetry_enabled", false);
-
-
-//Incomplete Fingerprinting Protection (These settings can casue performace issue, https://wiki.mozilla.org/Security/Fingerprinting) 
-//user_pref("privacy.resistFingerprinting", true);  (Use Canvas Blocker addon instead)  
-//user_pref("privacy.resistFingerprinting.block_mozAddonManager", true); 
