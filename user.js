@@ -16,11 +16,23 @@ user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false);
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
 user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);
 user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
+user_pref("browser.newtabpage.activity-stream.feeds.favicon", false);
+user_pref("browser.newtabpage.activity-stream.feeds.newtabinit", false);
+user_pref("browser.newtabpage.activity-stream.feeds.places", false);
+user_pref("browser.newtabpage.activity-stream.feeds.recommendationproviderswitcher", false);
+user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false);
+user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
+user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);
+user_pref("browser.newtabpage.activity-stream.feeds.system.topsites", false);
+user_pref("browser.newtabpage.activity-stream.feeds.system.topstories", false);
+user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
+user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);
 user_pref("browser.newtabpage.activity-stream.impressionId", "");
 user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket", false);
 user_pref("browser.newtabpage.activity-stream.showSponsored", false);
 user_pref("browser.newtabpage.activity-stream.telemetry", false);
 user_pref("browser.newtabpage.activity-stream.telemetry.structuredIngestion.endpoint", "");
+user_pref("browser.newtabpage.activity-stream.discoverystream.isCollectionDismissible", false);
 
 //Safebrowsing && URLs
 user_pref("browser.tabs.crashReporting.sendReport", false);
@@ -82,10 +94,15 @@ user_pref("browser.contentblocking.report.vpn-ios.url", "");
 user_pref("browser.contentblocking.report.vpn-promo.url", "");
 user_pref("browser.contentblocking.report.vpn.url", "");
 user_pref("browser.contentblocking.reportBreakage.url", "");
+user_pref("browser.contentblocking.database.enabled", false);
+user_pref("browser.contentblocking.report.lockwise.enabled", false);
+user_pref("browser.contentblocking.report.vpn.enabled", false);
 
 //Url Bar
+user_pref("browser.urlbar.placeholderName", "");
 user_pref("browser.urlbar.richSuggestions.tail", false);
 user_pref("browser.urlbar.speculativeConnect.enabled", false);
+user_pref("browser.urlbar.richSuggestions.tail", false);
 user_pref("browser.urlbar.suggest.history", false);
 user_pref("browser.urlbar.suggest.searches", false);
 user_pref("browser.urlbar.suggest.topsites", false);
@@ -128,6 +145,12 @@ user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.feeds.sec
 user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includePocket", false);
 user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.showSponsored", false);
 user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.showSponsoredTopSites", false);
+user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.feeds.section.highlights", false);
+user_pref("services.sync.prefs.sync.browser.urlbar.suggest.topsites", false);
+user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.feeds.section.topstories", false);
+user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.feeds.snippets", false);
+user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.feeds.topsites", false);
+user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.topSitesRows", false);
 user_pref("services.sync.prefs.sync.browser.safebrowsing.downloads.enabled", false);
 user_pref("services.sync.prefs.sync.browser.safebrowsing.downloads.remote.block_potentially_unwanted", false);
 user_pref("services.sync.prefs.sync.browser.safebrowsing.malware.enabled", false);
@@ -136,6 +159,7 @@ user_pref("services.sync.prefs.sync.browser.urlbar.suggest.bookmark", false);
 user_pref("services.sync.prefs.sync.browser.urlbar.suggest.history", false);
 user_pref("services.sync.prefs.sync.layout.spellcheckDefault", false);
 user_pref("services.sync.prefs.sync.spellchecker.dictionary", false);
+user_pref("services.sync.sendVersionInfo", false);
 
 //Toolkit Telemetry && URLs 
 user_pref("toolkit.coverage.endpoint.base", "");
@@ -162,6 +186,10 @@ user_pref("toolkit.coverage.endpoint.base", "");
 user_pref("security.ssl.errorReporting.automatic", false);
 user_pref("security.ssl.errorReporting.enabled", false);
 user_pref("security.ssl.errorReporting.url", "");
+user_pref("security.certerrors.recordEventTelemetry", false);
+user_pref("security.identitypopup.recordEventTelemetry", false);
+user_pref("security.protectionspopup.recordEventTelemetry", false);
+user_pref("security.app_menu.recordEventTelemetry", false);
 
 //Dev Telemetry
 user_pref("devtools.devices.url", "");
@@ -188,11 +216,17 @@ user_pref("extensions.pocket.onSaveRecs", false);
 user_pref("extensions.pocket.site", "");
 
 //Network 
+user_pref("network.connectivity-service.DNSv4.domain", "");
+user_pref("network.connectivity-service.DNSv6.domain", "");
+user_pref("network.connectivity-service.nat64-check", false);
 user_pref("network.connectivity-service.IPv4.url", "");
 user_pref("network.connectivity-service.IPv6.url", "");
+user_pref("network.connectivity-service.enabled", false);
 user_pref("network.dns.disablePrefetch", true);
 user_pref("network.http.speculative-parallel-limit", 0);
 user_pref("network.trr.blocklist_cleanup_done", true);
+user_pref("network.trr.resolvers", "");
+user_pref("network.trr.uri", "");
 
 //App. 
 user_pref("app.releaseNotesURL", "");
@@ -204,6 +238,10 @@ user_pref("app.normandy.enabled", false);
 user_pref("app.normandy.api_url", "");
 user_pref("app.feedback.baseURL", "");
 user_pref("app.normandy.first_run", false);
+user_pref("app.normandy.shieldLearnMoreUrl", "");
+user_pref("app.normandy.startupExperimentPrefs.browser.partnerlink.useAttributionURL", false);
+user_pref("app.normandy.startupExperimentPrefs.browser.topsites.experiment.ebay-2020-1", false);
+user_pref("app.normandy.startupExperimentPrefs.browser.topsites.useRemoteSetting", false);
 user_pref("breakpad.reportURL", "");
 user_pref("app.update.auto", false);
 user_pref("app.update.url.manual","");
@@ -215,3 +253,5 @@ user_pref("webextensions.storage.sync.serverURL", "");
 user_pref("xpinstall.signatures.devInfoURL", "");
 user_pref("dom.push.serverURL", "");
 user_pref("dom.security.unexpected_system_load_telemetry_enabled", false);
+user_pref("dom.ipc.plugins.reportCrashURL", false);
+
