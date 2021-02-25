@@ -11,6 +11,7 @@
 ***/
 
 //Browser.newtabpage
+user_pref("browser.newtabpage.enabled", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
 user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false);
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
@@ -29,6 +30,11 @@ user_pref("browser.newtabpage.activity-stream.showSponsored", false);
 user_pref("browser.newtabpage.activity-stream.telemetry", false);
 user_pref("browser.newtabpage.activity-stream.telemetry.structuredIngestion.endpoint", "");
 user_pref("browser.newtabpage.activity-stream.discoverystream.isCollectionDismissible", false);
+user_pref("browser.newtabpage.activity-stream.discoverystream.spocs.personalized", false);
+user_pref("browser.newtabpage.activity-stream.feeds.prefs", false);
+user_pref("browser.newtabpage.activity-stream.feeds.discoverystreamfeed", false);
+
+
 
 //Safebrowsing && URLs
 user_pref("browser.tabs.crashReporting.sendReport", false);
@@ -190,6 +196,11 @@ user_pref("security.ssl.errorReporting.enabled", false);
 user_pref("security.ssl.errorReporting.url", "");
 user_pref("security.app_menu.recordEventTelemetry", false);
 
+//Services.settings
+user_pref("services.settings.security.onecrl.collection", "");
+user_pref("services.settings.security.onecrl.signer", "");
+user_pref("services.settings.server", "");
+
 //Dev Telemetry
 user_pref("devtools.devices.url", "");
 user_pref("devtools.performance.recording.ui-base-url", "");
@@ -249,6 +260,8 @@ user_pref("app.normandy.shieldLearnMoreUrl", "");
 user_pref("app.normandy.startupExperimentPrefs.browser.partnerlink.useAttributionURL", false);
 user_pref("app.normandy.startupExperimentPrefs.browser.topsites.experiment.ebay-2020-1", false);
 user_pref("app.normandy.startupExperimentPrefs.browser.topsites.useRemoteSetting", false);
+user_pref("app.normandy.startupRolloutPrefs.doh-rollout.enabled", false);
+user_pref("app.normandy.startupRolloutPrefs.doh-rollout.provider-steering.enabled", true);
 user_pref("breakpad.reportURL", "");
 user_pref("app.update.auto", false);
 user_pref("app.update.url.manual","");
