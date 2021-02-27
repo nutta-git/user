@@ -6,7 +6,7 @@ user.js by nutta-git @GitHub
      Please have a backup of your orginal Profile before using this script,
      This script MAY casue browser issues. 
 
-#! USE THIS SCRIPT AT YOUR OWN RISK !!#
+# !USE THIS SCRIPT AT YOUR OWN RISK!
   
 
 
