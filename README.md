@@ -1,26 +1,20 @@
 user.js by nutta-git @GitHub
 
 # Please Read:
-
-     user.js disables some of the telemetry within Firefox 
-  
+     This user.js disables some of the telemetry in FireFox
      user.js takes inspiration from [https://github.com/arkenfox/user.js] 
-  
      Please have a backup of your orginal Profile before using this script,
-  
-     This script may casue site breakage and/or create security holes. 
-  
-     !! USE THIS SCRIPT AT YOUR OWN RISK !! 
+     This script MAY casue browser issues. 
+
+#! USE THIS SCRIPT AT YOUR OWN RISK !!#
   
 
 
 
 # Installation:
   
-     -First, Open into your mozilla directory 
+     Head to the firefox directory(dir) within the mozilla dir, then to your profile directory 
   
-     -Next, Head to the firefox directory, then to your profile directory 
-  
-     -Lastly, Place user.js into your profile directory
+     Place user.js into your profile directory
   
   
