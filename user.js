@@ -105,7 +105,6 @@ user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("toolkit.telemetry.coverage.opt-out", true); 
 user_pref("toolkit.coverage.opt-out", true);
 
-
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 
