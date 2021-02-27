@@ -83,9 +83,6 @@ user_pref("geo.provider.ms-windows-location", false);
 user_pref("geo.provider.use_corelocation", false); 
 user_pref("geo.provider.use_gpsd", false);
 
-user_pref("extensions.getAddons.showPane", false); 
-user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
-
 user_pref("toolkit.coverage.endpoint.base", "");
 user_pref("toolkit.crashreporter.infoURL", "");
 user_pref("toolkit.datacollection.infoURL", "");
@@ -108,8 +105,6 @@ user_pref("toolkit.coverage.opt-out", true);
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 
-user_pref("app.shield.optoutstudies.enabled", false);
-
 user_pref("breakpad.reportURL", "")
 user_pref("captivedetect.canonicalURL", "");
 
@@ -126,6 +121,8 @@ user_pref("extensions.formautofill.creditCards.enabled", false);
 user_pref("extensions.formautofill.heuristics.enabled", false); 
 user_pref("extensions.webcompat-reporter.enabled", false);
 user_pref("extensions.pocket.enabled", false);
+user_pref("extensions.getAddons.showPane", false); 
+user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
 
 user_pref("network.captive-portal-service.enabled", false);
 user_pref("network.connectivity-service.enabled", false);
@@ -167,6 +164,7 @@ user_pref("dom.ipc.plugins.reportCrashURL", false);
 user_pref("dom.ipc.plugins.reportCrashURL", false);
 
 user_pref("messaging-system.rsexperimentloader.enabled", false);
+user_pref("app.shield.optoutstudies.enabled", false);
 user_pref("devtools.debugger.remote-enabled", false);
 user_pref("identity.fxaccounts.enabled", false); 
 user_pref("reader.parse-on-load.enabled", false);
