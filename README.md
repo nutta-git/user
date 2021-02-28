@@ -16,8 +16,8 @@ user.js by nutta-git @GitHub
 
 # Installation:
   
-     Head to the firefox directory(dir) within the mozilla dir, then to your profile directory 
+     Head to the firefox directory(dir) within the mozilla dir, then to your profile dir
   
-     Place user.js into your profile directory
+     Place user.js into your profile dir
   
   
