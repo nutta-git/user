@@ -14,10 +14,6 @@ user_pref("browser.startup.page", 0);
 user_pref("browser.startup.homepage", "about:blank");
 user_pref("browser.startup.homepage_override.mstone", "ignore");
 
-user_pref("startup.homepage_welcome_url", "");
-user_pref("startup.homepage_welcome_url.additional", "");
-user_pref("startup.homepage_override_url", "");
-
 user_pref("browser.search.geoSpecificDefaults", false);
 user_pref("browser.search.update", false);
 user_pref("browser.search.suggest.enabled", false);
@@ -81,6 +77,10 @@ user_pref("browser.newtabpage.activity-stream.feeds.system.topstories", false);
 user_pref("geo.provider.ms-windows-location", false); 
 user_pref("geo.provider.use_corelocation", false); 
 user_pref("geo.provider.use_gpsd", false);
+
+user_pref("startup.homepage_welcome_url", "");
+user_pref("startup.homepage_welcome_url.additional", "");
+user_pref("startup.homepage_override_url", "");
 
 user_pref("toolkit.coverage.endpoint.base", "");
 user_pref("toolkit.crashreporter.infoURL", "");
