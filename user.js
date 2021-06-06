@@ -19,20 +19,6 @@ user_pref("browser.search.update", false);
 user_pref("browser.search.suggest.enabled", false);
 user_pref("browser.search.geoSpecificDefaults.url", "");
 
-user_pref("browser.messaging-system.whatsNewPanel.enabled", false);
-user_pref("browser.discovery.enabled", false);
-user_pref("browser.region.network.url", ""); 
-user_pref("browser.region.update.enabled", false);
-
-user_pref("browser.ping-centre.telemetry", false);
-user_pref("browser.send_pings", false); 
-user_pref("browser.send_pings.require_same_host", true);
-user_pref("browser.tabs.crashReporting.sendReport", false); 
-user_pref("browser.chrome.errorReporter.infoURL", "");
-
-user_pref("browser.crashReports.unsubmittedCheck.enabled", false);
-user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
-
 user_pref("browser.urlbar.suggest.searches", false);
 user_pref("browser.urlbar.speculativeConnect.enabled", false);
 user_pref("browser.urlbar.dnsResolveSingleWordsAfterSearch", 0);
@@ -73,6 +59,18 @@ user_pref("browser.newtabpage.activity-stream.feeds.places", false);
 user_pref("browser.newtabpage.activity-stream.feeds.recommendationproviderswitcher", false);
 user_pref("browser.newtabpage.activity-stream.feeds.system.topsites", false);
 user_pref("browser.newtabpage.activity-stream.feeds.system.topstories", false);
+
+user_pref("browser.messaging-system.whatsNewPanel.enabled", false);
+user_pref("browser.discovery.enabled", false);
+user_pref("browser.region.network.url", ""); 
+user_pref("browser.region.update.enabled", false);
+user_pref("browser.ping-centre.telemetry", false);
+user_pref("browser.send_pings", false); 
+user_pref("browser.send_pings.require_same_host", true);
+user_pref("browser.tabs.crashReporting.sendReport", false); 
+user_pref("browser.chrome.errorReporter.infoURL", "");
+user_pref("browser.crashReports.unsubmittedCheck.enabled", false);
+user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
 
 user_pref("geo.provider.ms-windows-location", false); 
 user_pref("geo.provider.use_corelocation", false); 
