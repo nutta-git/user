@@ -106,10 +106,14 @@ user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 
 user_pref("breakpad.reportURL", "");
+user_pref("captivedetect.canonicalContent", ""); 
 user_pref("captivedetect.canonicalURL", "");
 
 user_pref("app.normandy.enabled", false);
 user_pref("app.normandy.api_url", "");
+
+user_pref("app.update.background.scheduling.enabled", false);
+user_pref("app.update.auto", false);
 
 user_pref("extensions.blocklist.enabled", false);
 user_pref("extensions.systemAddon.update.enabled", false); 
@@ -168,4 +172,3 @@ user_pref("app.shield.optoutstudies.enabled", false);
 user_pref("devtools.debugger.remote-enabled", false);
 user_pref("identity.fxaccounts.enabled", false); 
 user_pref("reader.parse-on-load.enabled", false);
-user_pref("app.update.auto", false);
