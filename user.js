@@ -44,7 +44,6 @@ user_pref("browser.urlbar.suggest.history", false);
 user_pref("browser.urlbar.suggest.bookmark", false);
 user_pref("browser.urlbar.suggest.openpage", false);
 user_pref("browser.urlbar.suggest.topsites", false);
-user_pref("beacon.enabled", false);
 user_pref("browser.uitour.enabled", false);
 user_pref("browser.uitour.url", "");
 
@@ -105,7 +104,6 @@ user_pref("toolkit.coverage.opt-out", true);
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 
-user_pref("breakpad.reportURL", "");
 user_pref("captivedetect.canonicalContent", ""); 
 user_pref("captivedetect.canonicalURL", "");
 
@@ -172,3 +170,6 @@ user_pref("app.shield.optoutstudies.enabled", false);
 user_pref("devtools.debugger.remote-enabled", false);
 user_pref("identity.fxaccounts.enabled", false); 
 user_pref("reader.parse-on-load.enabled", false);
+user_pref("beacon.enabled", false);
+user_pref("breakpad.reportURL", "");
+
