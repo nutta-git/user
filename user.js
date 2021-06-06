@@ -105,7 +105,7 @@ user_pref("toolkit.coverage.opt-out", true);
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 
-user_pref("breakpad.reportURL", "")
+user_pref("breakpad.reportURL", "");
 user_pref("captivedetect.canonicalURL", "");
 
 user_pref("app.normandy.enabled", false);
