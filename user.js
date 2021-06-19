@@ -112,8 +112,6 @@ user_pref("app.update.background.scheduling.enabled", false);
 user_pref("app.update.auto", false);
 
 user_pref("extensions.blocklist.enabled", false);
-user_pref("extensions.systemAddon.update.enabled", false); 
-user_pref("extensions.systemAddon.update.url", ""); 
 user_pref("extensions.formautofill.addresses.enabled", false); 
 user_pref("extensions.formautofill.available", "off"); 
 user_pref("extensions.formautofill.creditCards.available", false); 
@@ -141,7 +139,6 @@ user_pref("network.connectivity-service.enabled", false);
 user_pref("network.dns.disablePrefetch", true);
 user_pref("network.prefetch-next", false);
 user_pref("network.captive-portal-service.enabled", false);
-user_pref("network.trr.blocklist_cleanup_done", true);
 user_pref("network.trr.resolvers", "");
 user_pref("network.trr.uri", "");
 
