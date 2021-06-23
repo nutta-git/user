@@ -99,18 +99,6 @@ user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("toolkit.telemetry.coverage.opt-out", true); 
 user_pref("toolkit.coverage.opt-out", true);
 
-user_pref("datareporting.healthreport.uploadEnabled", false);
-user_pref("datareporting.policy.dataSubmissionEnabled", false);
-
-user_pref("captivedetect.canonicalContent", ""); 
-user_pref("captivedetect.canonicalURL", "");
-
-user_pref("app.normandy.enabled", false);
-user_pref("app.normandy.api_url", "");
-
-user_pref("app.update.background.scheduling.enabled", false);
-user_pref("app.update.auto", false);
-
 user_pref("extensions.blocklist.enabled", false);
 user_pref("extensions.formautofill.addresses.enabled", false); 
 user_pref("extensions.formautofill.available", "off"); 
@@ -138,7 +126,6 @@ user_pref("network.connectivity-service.IPv6.url", "");
 user_pref("network.connectivity-service.enabled", false);
 user_pref("network.dns.disablePrefetch", true);
 user_pref("network.prefetch-next", false);
-user_pref("network.captive-portal-service.enabled", false);
 user_pref("network.trr.resolvers", "");
 user_pref("network.trr.uri", "");
 
@@ -150,15 +137,28 @@ user_pref("security.certerrors.recordEventTelemetry", false);
 user_pref("security.identitypopup.recordEventTelemetry", false);
 user_pref("security.protectionspopup.recordEventTelemetry", false);
 user_pref("security.xfocsp.errorReporting.enabled", false);
-user_pref("services.settings.security.onecrl.collection", "");
-user_pref("services.settings.security.onecrl.signer", "");
-user_pref("services.settings.server", "");
 
 user_pref("dom.push.serverURL", "");
 user_pref("dom.security.unexpected_system_load_telemetry_enabled", false);
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
 user_pref("dom.ipc.plugins.reportCrashURL", false);
 user_pref("dom.ipc.plugins.reportCrashURL", false);
+
+user_pref("datareporting.healthreport.uploadEnabled", false);
+user_pref("datareporting.policy.dataSubmissionEnabled", false);
+
+user_pref("captivedetect.canonicalContent", ""); 
+user_pref("captivedetect.canonicalURL", "");
+
+user_pref("app.normandy.enabled", false);
+user_pref("app.normandy.api_url", "");
+
+user_pref("app.update.background.scheduling.enabled", false);
+user_pref("app.update.auto", false);
+
+user_pref("services.settings.security.onecrl.collection", "");
+user_pref("services.settings.security.onecrl.signer", "");
+user_pref("services.settings.server", "");
 
 user_pref("messaging-system.rsexperimentloader.enabled", false);
 user_pref("app.shield.optoutstudies.enabled", false);
@@ -167,4 +167,3 @@ user_pref("identity.fxaccounts.enabled", false);
 user_pref("reader.parse-on-load.enabled", false);
 user_pref("beacon.enabled", false);
 user_pref("breakpad.reportURL", "");
-
