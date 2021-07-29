@@ -108,6 +108,7 @@ user_pref("extensions.formautofill.heuristics.enabled", false);
 user_pref("extensions.webcompat-reporter.enabled", false);
 user_pref("extensions.pocket.enabled", false);
 user_pref("extensions.getAddons.showPane", false); 
+user_pref("extensions.systemAddon.update.enabled", false); 
 user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
 
 user_pref("network.captive-portal-service.enabled", false);
