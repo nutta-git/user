@@ -1,11 +1,12 @@
 /*** user.js by nutta-git @GitHub
  
  *PLEASE READ* 
-    - This user.js disables some of the telemetry in FireFox
-    - user.js takes inspiration from [https://github.com/arkenfox/user.js] 
-    - Please have a backup of your orginal Profile before using this script,
-    - This script MAY casue browser issues. 
-    - !! USE THIS SCRIPT AT YOUR OWN RISK !! 
+ 
+user.js disables some of the telemetry in FireFox.
+user.js takes inspiration from arkenfox/user.js
+Please have a backup of your orginal Profile before using this script.
+This script MAY casue unknown issues. Use at your own RISK!
+
 ***/
 
 user_pref("browser.startup.page", 0);
