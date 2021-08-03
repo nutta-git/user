@@ -19,6 +19,15 @@ user_pref("browser.startup.homepage_override.mstone", "ignore")
 user_pref("app.update.auto", false);
 user_pref("app.update.background.scheduling.enabled", false);
 
+user_pref("browser.urlbar.suggest.engines", false);
+user_pref("browser.urlbar.suggest.openpage", false);
+user_pref("browser.urlbar.suggest.topsites", false);
+user_pref("browser.urlbar.suggest.history", false);
+user_pref("browser.urlbar.suggest.searches", false);
+user_pref("browser.urlbar.trimURLs", false);
+user_pref("browser.urlbar.speculativeConnect.enabled", false);
+user_pref("browser.urlbar.dnsResolveSingleWordsAfterSearch", 0);
+
 user_pref("browser.newtabpage.pinned", "");
 user_pref("browser.newtab.preload", false);
 user_pref("browser.newtabpage.enabled", false);
@@ -45,14 +54,7 @@ user_pref("browser.safebrowsing.downloads.remote.block_uncommon", false);
 user_pref("browser.region.network.url", "");
 user_pref("browser.region.update.enabled", false);
 user_pref("browser.search.update", false);
-user_pref("browser.urlbar.suggest.engines", false);
-user_pref("browser.urlbar.suggest.openpage", false);
-user_pref("browser.urlbar.suggest.topsites", false);
 user_pref("browser.search.suggest.enabled", false);
-user_pref("browser.urlbar.trimURLs", false);
-user_pref("browser.urlbar.suggest.searches", false);
-user_pref("browser.urlbar.speculativeConnect.enabled", false);
-user_pref("browser.urlbar.dnsResolveSingleWordsAfterSearch", 0);
 user_pref("browser.uitour.enabled", false);
 user_pref("browser.uitour.url", "");
 user_pref("browser.fixup.alternate.enabled", false);
