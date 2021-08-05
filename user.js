@@ -43,6 +43,7 @@ user_pref("browser.newtabpage.activity-stream.default.sites", "");
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
 
+user_pref("browser.safebrowsing.passwords.enabled", false);
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.phishing.enabled", false);
 user_pref("browser.safebrowsing.downloads.enabled", false);
@@ -113,13 +114,5 @@ user_pref("breakpad.reportURL", "");
 user_pref("browser.tabs.crashReporting.sendReport", false);
 user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
 user_pref("identity.fxaccounts.enabled", false);
-
-user_pref("services.blocklist.addons-mlbf.signer", "");
-user_pref("services.blocklist.addons.signer", "");
-user_pref("services.blocklist.gfx.signer", "");
-user_pref("services.blocklist.plugins.signer", "");
-user_pref("services.settings.security.onecrl.collection", "");
-user_pref("services.settings.server", "");
-user_pref("services.settings.security.onecrl.signer", "o");
 
 ***/
