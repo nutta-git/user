@@ -40,6 +40,7 @@ user_pref("extensions.getAddons.showPane", false);
 user_pref("extensions.pocket.enabled", false);
 user_pref("browser.discovery.enabled", false);
 user_pref("identity.fxaccounts.enabled", false);
+user_pref("browser.preferences.moreFromMozilla", false); 
 
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("datareporting.healthreport.uploadEnabled", false);
