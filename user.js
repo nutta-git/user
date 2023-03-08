@@ -54,7 +54,7 @@ user_pref("toolkit.coverage.endpoint.base", "");
 user_pref("breakpad.reportURL", "");
 user_pref("browser.tabs.crashReporting.sendReport", false);
 user_pref("browser.ping-centre.telemetry", false);
-user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false)
+user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
 user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
 user_pref("browser.newtabpage.activity-stream.telemetry", false);
 
