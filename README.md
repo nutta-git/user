@@ -28,4 +28,4 @@ Ublock Orgin - Wide Spectrum Content Blocker
 https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
 
 This script disables some of the default protections built into firefox (Safe Browsing).
-Ublock Orgin enables some of the protections found in Safe Browsing. 
+Ublock Orgin replaces some of the protections found in Safe Browsing. 
