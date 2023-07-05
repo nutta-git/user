@@ -11,6 +11,13 @@ This script MAY casue unknown issues. Use at your own RISK!
 user_pref("browser.startup.page", 0);
 user_pref("browser.startup.homepage_override.mstone", "ignore");
 user_pref("browser.startup.homepage", "about:blank");
+user_pref("browser.discovery.enabled", false);
+user_pref("browser.preferences.moreFromMozilla", false); 
+user_pref("browser.tabs.crashReporting.sendReport", false);
+user_pref("browser.ping-centre.telemetry", false);
+user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
+user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
+user_pref("browser.newtabpage.activity-stream.telemetry", false);
 
 user_pref("browser.newtabpage.enabled", false);
 user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);
@@ -30,11 +37,6 @@ user_pref("browser.safebrowsing.downloads.remote.enabled", false);
 user_pref("browser.safebrowsing.downloads.remote.block_potentially_unwanted", false);
 user_pref("browser.safebrowsing.downloads.remote.block_uncommon", false);
 
-user_pref("extensions.pocket.enabled", false);
-user_pref("browser.discovery.enabled", false);
-user_pref("identity.fxaccounts.enabled", false);
-user_pref("browser.preferences.moreFromMozilla", false); 
-
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("datareporting.healthreport.uploadEnabled", false);
 
@@ -52,12 +54,15 @@ user_pref("toolkit.coverage.opt-out", true);
 user_pref("toolkit.coverage.endpoint.base", "");
 
 user_pref("breakpad.reportURL", "");
-user_pref("browser.tabs.crashReporting.sendReport", false);
-user_pref("browser.ping-centre.telemetry", false);
-user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
-user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
-user_pref("browser.newtabpage.activity-stream.telemetry", false);
+user_pref("captivedetect.canonicalURL", "");
+user_pref("network.captive-portal-service.enabled", false)
 
 user_pref("app.shield.optoutstudies.enabled", false);
 user_pref("app.normandy.enabled", false);
 user_pref("app.normandy.api_url", "");
+
+user_pref("extensions.pocket.enabled", false);
+user_pref("identity.fxaccounts.enabled", false);
+user_pref("extensions.quarantinedDomains.enabled", false);
+user_pref("extensions.webextensions.restrictedDomains", ""); 
+user_pref("privacy.resistFingerprinting.block_mozAddonManager", true); 
