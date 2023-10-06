@@ -39,8 +39,15 @@ user_pref("browser.safebrowsing.downloads.remote.block_uncommon", false);
 
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("datareporting.healthreport.uploadEnabled", false);
+user_pref("datareporting.healthreport.service.enabled", flase);
+user_pref("datareporting.sessions.current.clean", true);
 
 user_pref("toolkit.telemetry.unified", false);
+user_pref("toolkit.telemetry.unifiedIsOptIn", false);
+user_pref("toolkit.telemetry.reportingpolicy.firstRun", false);
+user_pref("toolkit.telemetry.rejected", false);
+user_pref("toolkit.telemetry.prompted", false);
+user_pref("toolkit.telemetry.archive.enabled", false);
 user_pref("toolkit.telemetry.enabled", false);
 user_pref("toolkit.telemetry.server", "data:,");
 user_pref("toolkit.telemetry.archive.enabled", false);
@@ -55,7 +62,8 @@ user_pref("toolkit.coverage.endpoint.base", "");
 
 user_pref("breakpad.reportURL", "");
 user_pref("captivedetect.canonicalURL", "");
-user_pref("network.captive-portal-service.enabled", false)
+user_pref("network.captive-portal-service.enabled", false);
+user_pref("devtools.onboarding.telemetry.logged", false);
 
 user_pref("app.shield.optoutstudies.enabled", false);
 user_pref("app.normandy.enabled", false);
