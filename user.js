@@ -39,7 +39,7 @@ user_pref("browser.safebrowsing.downloads.remote.block_uncommon", false);
 
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("datareporting.healthreport.uploadEnabled", false);
-user_pref("datareporting.healthreport.service.enabled", flase);
+user_pref("datareporting.healthreport.service.enabled", false);
 user_pref("datareporting.sessions.current.clean", true);
 
 user_pref("toolkit.telemetry.unified", false);
