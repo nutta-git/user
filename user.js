@@ -59,6 +59,7 @@ user_pref("toolkit.telemetry.firstShutdownPing.enabled", false);
 user_pref("toolkit.telemetry.coverage.opt-out", true);
 user_pref("toolkit.coverage.opt-out", true);
 user_pref("toolkit.coverage.endpoint.base", "");
+user_perf("dom.private-attribution.submission.enabled", false); 
 
 user_pref("breakpad.reportURL", "");
 user_pref("captivedetect.canonicalURL", "");
@@ -73,4 +74,5 @@ user_pref("extensions.pocket.enabled", false);
 user_pref("identity.fxaccounts.enabled", false);
 user_pref("extensions.quarantinedDomains.enabled", false);
 user_pref("extensions.webextensions.restrictedDomains", ""); 
-user_pref("privacy.resistFingerprinting.block_mozAddonManager", true); 
+user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
+
